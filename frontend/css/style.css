@@ -75,3 +75,61 @@ body{
     background:#ff6f00;
 
 }
+/* ===========================
+        HERO SECTION
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 8%;
+}
+
+.hero-content{
+    width:50%;
+}
+
+.hero-content h1{
+    font-size:60px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    color:#ccc;
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn-outline{
+    text-decoration:none;
+    color:#ff9800;
+    border:2px solid #ff9800;
+    padding:12px 25px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn-outline:hover{
+    background:#ff9800;
+    color:white;
+}
+
+.hero-image{
+    width:45%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:500px;
+}
