@@ -1,0 +1,77 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    background:#111;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#ff9800;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#ff9800;
+}
+
+.btn{
+
+    text-decoration:none;
+
+    background:#ff9800;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#ff6f00;
+
+}
