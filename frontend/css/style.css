@@ -241,3 +241,63 @@ body{
     }
 
 }
+/* MENU SECTION */
+
+.menu{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.menu h2{
+    font-size:40px;
+    color:#ff9800;
+    margin-bottom:50px;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.card{
+    background:#1c1c1c;
+    border-radius:15px;
+    padding:20px;
+    width:30%;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card p{
+    color:#ccc;
+}
+
+.card span{
+    display:block;
+    margin:15px 0;
+    color:#ff9800;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.card button{
+    background:#ff9800;
+    border:none;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
