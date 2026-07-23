@@ -262,33 +262,6 @@ Loved Everything.
 
 <!-- ================= CONTACT ================= -->
 
-<section id="contact">
-
-<h2>Contact Us</h2>
-
-<form>
-
-<input
-type="text"
-placeholder="Your Name">
-
-<input
-type="email"
-placeholder="Your Email">
-
-<textarea
-placeholder="Message">
-</textarea>
-
-<button>
-
-Send Message
-
-</button>
-
-</form>
-
-</section>
 
 <!-- ================= FOOTER ================= -->
 
@@ -366,24 +339,30 @@ Send Message
 <section id="reservation">
 
     <h2>Reserve Your Table</h2>
+<form action="/contact" method="POST">
 
-    <form class="reservation-form">
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
 
-        <input type="text" placeholder="Full Name" required>
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
 
-        <input type="email" placeholder="Email Address" required>
+<textarea
+name="message"
+placeholder="Message"
+required></textarea>
 
-        <input type="tel" placeholder="Phone Number" required>
+<button type="submit">
+Send Message
+</button>
 
-        <input type="date" required>
-
-        <input type="time" required>
-
-        <input type="number" placeholder="No. of Guests" min="1" max="20" required>
-
-        <button type="submit">Book Now</button>
-
-    </form>
+</form>
 
 </section>
 
